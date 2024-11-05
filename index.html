@@ -3,20 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>serach bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>serch bar</title>
   </head>
   <body>
-    <div class="search-wrapper">
-      <label for="search">Search Users</label>
-      <input type="search" id="search" data-search>
-    </div>
-
-    <div class="user-cards" data-user-cards-container></div>
-    <template data-user-template>
+    <div class="wrapper">
+      <div class="search-wrapper">
+        <label for="search">Search Users</label>
+        <input
+          type="search"
+          id="search"
+          data-search
+          required
+          placeholder="Search name or Email"
+          pattern="[A-Za-z0-9@\-_]+"
+          autocomplete="on"
+        />
+      </div>
+      <div class="user-cards" data-user-cards-container></div>
+      <template data-user-template>
         <div class="card">
-            <div class="header" data-header>My name</div>
-            <div class="body" data-body>Email@gmail.com</div>
-
+          <div class="header" data-header>My name</div>
+          <div class="body" data-body>Email@gmail.com</div>
         </div>
-     </template>
+      </template>
+    </div>
+  </body>
 </html>
