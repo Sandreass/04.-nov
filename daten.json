@@ -1,0 +1,74 @@
+{
+    "users": [
+      {
+        "name": "Tom",
+        "email": "example1@gmail.com",
+        "address": "Max Muster Str 24",
+        "city": "Berlin",
+        "zipcode": "34345"
+      },
+      {
+        "name": "Lisa",
+        "email": "example2@gmail.com",
+        "address": "Hauptstr 15",
+        "city": "Hamburg",
+        "zipcode": "21073"
+      },
+      {
+        "name": "Peter",
+        "email": "example3@gmail.com",
+        "address": "Musterallee 7",
+        "city": "München",
+        "zipcode": "80331"
+      },
+      {
+        "name": "Anna",
+        "email": "example4@gmail.com",
+        "address": "Bahnhofstr 12",
+        "city": "Köln",
+        "zipcode": "50667"
+      },
+      {
+        "name": "John",
+        "email": "example5@gmail.com",
+        "address": "Lindenweg 9",
+        "city": "Frankfurt",
+        "zipcode": "60311"
+      },
+      {
+        "name": "Maria",
+        "email": "example6@gmail.com",
+        "address": "Goethestr 8",
+        "city": "Stuttgart",
+        "zipcode": "70173"
+      },
+      {
+        "name": "Chris",
+        "email": "example7@gmail.com",
+        "address": "Ringstr 3",
+        "city": "Düsseldorf",
+        "zipcode": "40210"
+      },
+      {
+        "name": "Sophia",
+        "email": "example8@gmail.com",
+        "address": "Parkallee 11",
+        "city": "Bremen",
+        "zipcode": "28195"
+      },
+      {
+        "name": "Mike",
+        "email": "example9@gmail.com",
+        "address": "Blumenweg 6",
+        "city": "Leipzig",
+        "zipcode": "04109"
+      },
+      {
+        "name": "Julia",
+        "email": "example10@gmail.com",
+        "address": "Sonnenstr 22",
+        "city": "Dresden",
+        "zipcode": "01067"
+      }
+    ]
+  }
