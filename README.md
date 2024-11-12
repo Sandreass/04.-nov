@@ -19,3 +19,30 @@ Fetch-Ubung is a user-friendly tool that fetches user data from an external API 
 - **CSS**: Used for styling and layout design, including gradient backgrounds and responsive layouts.
 - **JavaScript**: Implements fetching data, search, sorting, and layout toggling functionalities.
 
+## Screenshots
+
+### Main Interface
+
+![Main Interface](screenshots/main-interface.png)
+
+### Search Functionality
+
+![Search Users](screenshots/search-functionality.png)
+
+### Sorting and Layout Toggle
+
+- **Grid Layout**
+
+  ![Grid Layout](screenshots/grid-layout.png)
+
+- **Flex Layout**
+
+  ![Flex Layout](screenshots/flex-layout.png)
+
+## Getting Started
+
+To set up and run Fetch-Ubung locally:
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:Sandreass/Fetch-Ubung.git
