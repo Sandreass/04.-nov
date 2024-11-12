@@ -78,3 +78,12 @@
   .hide {
     display: none;
   }
+
+  .filters_container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+  }
