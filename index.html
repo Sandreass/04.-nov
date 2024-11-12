@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/511471bc26.js"
+      crossorigin="anonymous"
+    ></script>
     <title>serch bar</title>
   </head>
   <body>
@@ -13,20 +17,24 @@
         <label for="search">Search Users</label>
         <input
           type="search"
+          name="search"
           id="search"
-          data-search
           required
-          placeholder="Search name or Email"
+          placeholder="Search name or email..."
           pattern="[A-Za-z0-9@\-_]+"
           autocomplete="on"
+          data-search
         />
       </div>
-      <section class="filters">
-        <button class="sort_btn">a-z</button>
-        <button class="flex_btn">flex</button>
-        <button class="grid_btn">grid</button>
+
+      <section class="filters_container">
+        <span class="sort_btn"></span>
+        <span class="grid_btn"><i class="fa-solid fa-table-cells"></i></span>
+        <span class="felx_btn"><i class="fa-solid fa-list"></i></span>
       </section>
-      <div class="user-cards1" data-user-cards-container></div>
+
+      <section class="user-cards1" data-user-cards-container></section>
+
       <template data-user-template>
         <div class="card">
           <div class="header" data-header>My name</div>
